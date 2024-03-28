@@ -9,15 +9,11 @@ The store's online transaction processing (OLTP) system serves as the primary da
 
 ## Project Steps:
 1-Physical Data Model Construction: Utilizing UML notation, the star schema comprises three dimensions—product, retail, and customer—alongside a fact table named transactions.
-
 2-Data Extraction: Extract pertinent data from the data warehouse, ensuring comprehensive inclusion of customer, store, and product details.
-
 3-Data Transformation: Apply necessary transformations to the extracted data to ensure alignment with business requirements. One such transformation involves converting customer name columns to uppercase.
-
 4-Data Mart Establishment: Develop a data mart titled RETAIL_DATA_MART, containing transaction records for each customer categorized by customer type ("citizen" or "foreign"), product information, and purchased stock.
 
 5-Data Loading: Load the transformed data into the RETAIL_DATA_MART data mart.
-
 6-Data Mart Analysis: Utilize the RETAIL_DATA_MART data mart to address specific business needs, such as:
     Displaying the transaction count for each employee in every store.
     Identifying the customer type ("citizen" or "foreign") generating the highest profit. For instance, if "foreign" customers conduct 5 transactions and "citizen" 
