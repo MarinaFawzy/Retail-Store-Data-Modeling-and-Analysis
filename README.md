@@ -21,9 +21,9 @@ The store's online transaction processing (OLTP) system serves as the primary da
     Granting a bonus to the customer(s) contributing the most to the profit.
 
 ## Project Files:
-Jobs: contains the dsx file for the DataStage jobs
+Jobs: contains the dsx file for the DataStage jobs.
 Dataset: contains the data after it is modeled in a star schema data warehouse model.
-JobScreenshot: A visual representation of a DataStage jobs
+
 
 
 
